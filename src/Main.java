@@ -23,5 +23,6 @@ public class Main {
         } else if (IMC > 30) {
             System.out.println("Tu IMC es "+imcFormateado+". Por lo tanto es Alto");
         }
+    scanner.close();
     }
 }
