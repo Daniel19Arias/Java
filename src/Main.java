@@ -15,7 +15,7 @@ public class Main {
         double capital = scanner.nextDouble();
         System.out.print("\nEscriba el porcentaje de tasa anual(%): ");
         double tasa = scanner.nextDouble();
-        System.out.print("\nEscriba cuál es el tiempo de inversion: ");
+        System.out.print("\nEscriba cuál es el tiempo de inversion (En meses): ");
         int tiempo = scanner.nextInt();
         System.out.println("-----------------------------------------");
         System.out.println("Sus datos son los siguientes\nNombre: "+nombre+"\nCapital Inicial: "+capital+"\nTasa: "+tasa+"\nTiempo de inversión: "+tiempo);
