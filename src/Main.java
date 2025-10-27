@@ -22,7 +22,7 @@ public class Main {
         System.out.println("-----------------------------------------");
         double interesGenerado = capital * (tasa/100) * tiempo;
         double capitalFinal = capital + interesGenerado;
-        double interesPromedio = interesGenerado / (tiempo*12);
+        double interesPromedio = interesGenerado / tiempo;
         System.out.println("Buenas "+nombre+ " sus datos son los siguientes");
         System.out.printf("Su interes generado es el siguiente: %.2f",interesGenerado);
         System.out.printf("\nCapital Final: %.2f",capitalFinal);
