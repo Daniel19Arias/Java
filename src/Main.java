@@ -14,9 +14,9 @@ public class Main {
         String imcFormateado = String.format("%.2f", IMC);
 
         //Realizamos las condiciones
-        if (IMC <= 18.5){
+        if (IMC < 18.5){
             System.out.println("Tu IMC es "+imcFormateado+". Por lo tanto es muy bajo");
-        } else if (IMC >= 18.25 && IMC <25) {
+        } else if (IMC >= 18.5 && IMC <25) {
             System.out.println("Tu IMC es "+imcFormateado+". Por lo tanto es bajo");
         } else if (IMC >= 25 && IMC <=30) {
             System.out.println("Tu IMC es "+imcFormateado+". Por lo tanto es normal");
