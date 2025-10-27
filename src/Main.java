@@ -4,7 +4,7 @@ public class Main {
     public static void main (String[] args){
         //Utilizamos dos escáners, uno para la altura y otro para el peso
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Escribe a continuación la altura en m: ");
+        System.out.print("Escribe a continuación la altura en cm: ");
         float altura = scanner.nextFloat();
         System.out.print("\nEscribe a continuación su peso en KG: ");
         float peso = scanner.nextFloat();
